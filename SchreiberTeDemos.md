@@ -16,10 +16,10 @@ It is written for MATLAB or Octave.
 This demonstration set is found at [demos/octave/SchreiberTransferEntropyExamples/](../blob/master/demos/octave/SchreiberTransferEntropyExamples) in the git repository or [full distribution](Downloads).
 
 The examples included are:
- 1. [Tent Map](#1--tent-map)
- 1. [Ulam Map](#2--ulam-map)
- 1. [Heart-breath interaction](#3--heart-breath-interaction)
- 1. [Heart-breath interaction - further investigation](#4--heart-breath-interaction---further-investigation)
+ 1. [Tent Map](#1-tent-map)
+ 1. [Ulam Map](#2-ulam-map)
+ 1. [Heart-breath interaction](#3-heart-breath-interaction)
+ 1. [Heart-breath interaction - further investigation](#4-heart-breath-interaction---further-investigation)
 
 ### 1. Tent Map
 
