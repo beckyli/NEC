@@ -10,15 +10,15 @@ These examples have been confirmed to work in both Octave and Matlab.
 Please see [UseInOctaveMatlab](UseInOctaveMatlab) for instructions on how to begin using the java toolkit from inside octave or matlab.
 
 This page contains the following code examples:
-  * [Example 1 - Transfer entropy on binary data](#Example_1_-_Transfer_entropy_on_binary_data)
-  * [Example 2 - Transfer entropy on multidimensional binary data](#Example_2_-_Transfer_entropy_on_multidimensional_binary_data)
-  * [Example 3 - Transfer entropy on continuous data using kernel estimators](#Example_3_-_Transfer_entropy_on_continuous_data_using_kernel_est)
-  * [Example 4 - Transfer entropy on continuous data using Kraskov estimators](#Example_4_-_Transfer_entropy_on_continuous_data_using_Kraskov_es)
-  * [Example 5 - Multivariate transfer entropy on binary data](#Example_5_-_Multivariate_transfer_entropy_on_binary_data)
-  * [Example 6 - Dynamic dispatch with Mutual info calculator](#Example_6_-_Dynamic_dispatch_with_Mutual_info_calculator)
+  * [Example 1 - Transfer entropy on binary data](#example-1---transfer-entropy-on-binary-data)
+  * [Example 2 - Transfer entropy on multidimensional binary data](#example-2---transfer-entropy-on-multidimensional-binary-data)
+  * [Example 3 - Transfer entropy on continuous data using kernel estimators](#example-3---transfer-entropy-on-continuous-data-using-kernel-estimators)
+  * [Example 4 - Transfer entropy on continuous data using Kraskov estimators](#example-4---transfer-entropy-on-continuous-data-using-kraskov-estimators)
+  * [Example 5 - Multivariate transfer entropy on binary data](#example-5---multivariate-transfer-entropy-on-binary-data)
+  * [Example 6 - Dynamic dispatch with Mutual info calculator](#example-6---dynamic-dispatch-with-mutual-info-calculator)
   * Example 7 - coming soon
   * Example 8 - coming soon
-  * [Example 9 - Transfer entropy on multivariate continuous data using Kraskov estimators](#Example_9_-_Transfer_entropy_on_multivariate_continuous_data_usi)
+  * [Example 9 - Transfer entropy on multivariate continuous data using Kraskov estimators](#example-9---transfer-entropy-on-multivariate-continuous-data-using-kraskov-estimators)
 
 ### Be aware
 
