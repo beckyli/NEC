@@ -26,7 +26,7 @@ Run the `AutoAnalyser` GUI app from the `demos/AutoAnalyser` folder via:
 
 This will launch the GUI app, which looks like:
 
-http://information-dynamics-toolkit.googlecode.com/svn/trunk/web/AutoAnalyserGUI-1-Launch.png
+![Launching the GUI image](https://raw.githubusercontent.com/jlizier/jidt/master/web/AutoAnalyserGUI-1-Launch.png)
 
 Next, you fill out the details for the transfer entropy calculation in the left panel, i.e.:
  1. Select which TE *estimator* to use from the drop-down list
@@ -38,7 +38,7 @@ Then, click the `Compute` button. Unless you have made an error in the above, th
 
 Furthermore, the app will generate code to repeat this calculation using JIDT for you, in each of Java, Python and Matlab. The code is shown in the right panel; for example, see:
 
-![](https://raw.githubusercontent.com/jlizier/jidt/master/web/AutoAnalyserGUI-1-Launch.png)
+![Computing in the GUI app image](https://raw.githubusercontent.com/jlizier/jidt/master/web/AutoAnalyserGUI-2-Compute.png)
 
 As you can see, there are separate tabs displaying code generated in each of Java, Python and Matlab.
 
