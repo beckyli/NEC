@@ -16,7 +16,7 @@ Once you have done that, the demo:
 
 You have no excuses left not to use JIDT -- it is simply too easy!
 
-This demonstration is found at [demos/AutoAnalyser](http://code.google.com/p/information-dynamics-toolkit/source/browse/#svn%2Ftrunk%2Fdemos%2FAutoAnalyser) in the svn or [full distribution](Downloads).
+This demonstration is found at [demos/AutoAnalyser](../blob/master/demos/AutoAnalyser) in the svn or [full distribution](Downloads).
 
 ### Running the Auto Analyser GUI app
 
