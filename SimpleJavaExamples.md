@@ -8,15 +8,15 @@ This page describes a basic set of demonstration scripts for using the toolkit. 
 Please note that other more complicated examples are available from the main [Demos](Demos) page.
 
 This page contains the following code examples:
-  * [Example 1 - Transfer entropy on binary data](#Example_1_-_Transfer_entropy_on_binary_data)
-  * [Example 2 - Transfer entropy on multidimensional binary data](#Example_2_-_Transfer_entropy_on_multidimensional_binary_data)
-  * [Example 3 - Transfer entropy on continuous data using kernel estimators](#Example_3_-_Transfer_entropy_on_continuous_data_using_kernel_est)
-  * [Example 4 - Transfer entropy on continuous data using Kraskov estimators](#Example_4_-_Transfer_entropy_on_continuous_data_using_Kraskov_es)
-  * [Example 5 - Multivariate transfer entropy on binary data](#Example_5_-_Multivariate_transfer_entropy_on_binary_data)
-  * [Example 6 - Late binding Mutual info calculator](#Example_6_-_Late_binding_Mutual_info_calculator)
-  * [Example 7 - Transfer entropy via an ensemble of samples](#Example_7_-_Ensemble_approach_for_multiple_samples)
-  * [Example 8 - Transfer entropy on continuous data using binning](#Example_8_-_Transfer_entropy_on_continuous_data_using_binning)
-  * [Example 9 - Transfer entropy on continuous data using Kraskov estimators with auto-embedding](#Example_9_-_Transfer_entropy_on_continuous_data_using_Kraskov_es)
+  * [Example 1 - Transfer entropy on binary data](#example-1---transfer-entropy-on-binary-data)
+  * [Example 2 - Transfer entropy on multidimensional binary data](#example-2---transfer-entropy-on-multidimensional-binary-data)
+  * [Example 3 - Transfer entropy on continuous data using kernel estimators](#example-3---transfer-entropy-on-continuous-data-using-kernel-estimators)
+  * [Example 4 - Transfer entropy on continuous data using Kraskov estimators](#example-4---transfer-entropy-on-continuous-data-using-kraskov-estimators)
+  * [Example 5 - Multivariate transfer entropy on binary data](#example-5---multivariate-transfer-entropy-on-binary-data)
+  * [Example 6 - Late binding Mutual info calculator](#example-6---late-binding-mutual-info-calculator)
+  * [Example 7 - Transfer entropy via an ensemble of samples](#example-7---ensemble-approach-for-multiple-samples)
+  * [Example 8 - Transfer entropy on continuous data using binning](#example-8---transfer-entropy-on-continuous-data-using-binning)
+  * [Example 9 - Transfer entropy on continuous data using Kraskov estimators with auto-embedding](#example-9---transfer-entropy-on-continuous-data-using-kraskov-estimators-with-auto-embedding)
 
 ## Example 1 - Transfer entropy on binary data
 
