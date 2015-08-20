@@ -6,13 +6,13 @@ _Examples of using the toolkit in Julia_
 
 This page describes a basic set of demonstration scripts for using the toolkit in Julia. The .jl files can be found at [demos/julia](../blob/master/demos/julia) in the svn or main distributions (from the V1.1 release at a future point in time ...).
 
-Please see UseInJulia for instructions on how to begin using JIDT from inside Julia, using the `JavaCall` package.
+Please see [UseInJulia](UseInJulia) for instructions on how to begin using JIDT from inside Julia, using the `JavaCall` package.
 
 This page contains the following code examples:
-  * [Example 1 - Transfer entropy on binary data](#Example_1_-_Transfer_entropy_on_binary_data)
-  * [Example 3 - Transfer entropy on continuous data using kernel estimators](#Example_3_-_Transfer_entropy_on_continuous_data_using_kernel_est)
-  * [Example 4 - Transfer entropy on continuous data using Kraskov estimators](#Example_4_-_Transfer_entropy_on_continuous_data_using_Kraskov_es)
-  * [Example 6 - Dynamic dispatch with Mutual info calculator](#Example_6_-_Dynamic_dispatch_with_Mutual_info_calculator)
+  * [Example 1 - Transfer entropy on binary data](#example-1---transfer-entropy-on-binary-data)
+  * [Example 3 - Transfer entropy on continuous data using kernel estimators](#example-3---transfer-entropy-on-continuous-data-using-kernel-estimators)
+  * [Example 4 - Transfer entropy on continuous data using Kraskov estimators](#example-4---transfer-entropy-on-continuous-data-using-kraskov-estimators)
+  * [Example 6 - Dynamic dispatch with Mutual info calculator](#example-6---dynamic-dispatch-with-mutual-info-calculator)
 
 Be aware that multidimensional arrays cannot yet be passed from Julia to Java via the `JavaCall` package; as such we have not implemented Example 2 nor Example 5 from the SimpleJavaExamples and Example 6 is only implemented up to the point at which the multidimensional data is passed to Java.
 
@@ -156,7 +156,7 @@ localTE = jcall(teCalc, "computeLocalOfPreviousObservations", Array{jdouble,1}, 
 [example6DynamicCallingMutualInfo.jl](../blob/master/demos/java/infodynamics/demos/julia/example6DynamicCallingMutualInfo.jl) - This example shows how to write Julia code to take advantage of the common interfaces defined for various information-theoretic calculators.
 Here, we use the common form of the `infodynamics.measures.continuous.MutualInfoCalculatorMultiVariate` interface (which is never named here) to write common code into which we can plug one of three concrete implementations (kernel estimator, Kraskov estimator or linear-Gaussian estimator) by dynamically supplying the class name of the concrete implementation.
 
-While the dynamic dispatch works here, we can't run all of the functionality of this example as would be seen in Java or other languages, since it requires multidimensional arrays to be passed between Julia and Java which is not yet supported in `JavaCall` (see UseInJulia).
+While the dynamic dispatch works here, we can't run all of the functionality of this example as would be seen in Java or other languages, since it requires multidimensional arrays to be passed between Julia and Java which is not yet supported in `JavaCall` (see [UseInJulia](UseInJulia)).
 
 ```julia
 # Import the JavaCall package:
