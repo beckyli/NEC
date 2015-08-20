@@ -22,10 +22,10 @@ Please see UseInClojure for instructions on how to begin using the Java toolkit 
 ```
 
 This page contains the following code examples. They can be run as `lein repl < example1TeBinaryData.clj` (Yes, I know it's not great Clojure code, but all that's important is that shows you how to get started with JIDT in Clojure!):
-  * [Example 1 - Transfer entropy on binary data](#Example_1_-_Transfer_entropy_on_binary_data)
-  * [Example 2 - Transfer entropy on multidimensional binary data](#Example_2_-_Transfer_entropy_on_multidimensional_binary_data)
-  * [Example 3 - Transfer entropy on continuous data using kernel estimators](#Example_3_-_Transfer_entropy_on_continuous_data_using_kernel_est)
-  * [Example 4 - Transfer entropy on continuous data using Kraskov estimators](#Example_4_-_Transfer_entropy_on_continuous_data_using_Kraskov_es)
+  * [Example 1 - Transfer entropy on binary data](##example-1---transfer-entropy-on-binary-data)
+  * [Example 2 - Transfer entropy on multidimensional binary data](###example-2---transfer-entropy-on-multidimensional-binary-data)
+  * [Example 3 - Transfer entropy on continuous data using kernel estimators](###example-3---transfer-entropy-on-continuous-data-using-kernel-est)
+  * [Example 4 - Transfer entropy on continuous data using Kraskov estimators](###example-4---transfer-entropy-on-continuous-data-using-kraskov-es)
   * More to come ...
 
 ## Example 1 - Transfer entropy on binary data
