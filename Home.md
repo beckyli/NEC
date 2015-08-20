@@ -5,7 +5,7 @@ Copyright (C) 2012-2014 [Joseph T. Lizier](http://lizier.me/joseph/); 2014-2015 
 *JIDT* provides a stand-alone, open-source code Java implementation (also usable in [Matlab, Octave](UseInOctaveMatlab), [Python](UseInPython), [R](UseInR), [Julia](UseInJulia) and [Clojure](UseInClojure)) of information-theoretic measures of distributed computation in complex systems: i.e. information storage, transfer and modification.
 
 JIDT includes implementations:
- * principally for the measures *transfer entropy*, *mutual information*, and their conditional variants, as well as *active information storage*, entropy, etc;
+ * principally for the measures **transfer entropy**, **mutual information**, and their conditional variants, as well as **active information storage**, entropy, etc;
  * for both _discrete_ and _continuous_-valued data;
  * using various types of estimators (e.g. _Kraskov-Stögbauer-Grassberger estimators_, _box-kernel estimation_, _linear-Gaussian_),
 as described in full at ImplementedMeasures.
@@ -27,7 +27,7 @@ For further information or announcements:
 
 # Citation
 
-Please *cite* your use of this toolkit as:
+Please **cite** your use of this toolkit as:
 
 Joseph T. Lizier, "JIDT: An information-theoretic toolkit for studying the dynamics of complex systems", _Frontiers in Robotics and AI_ 1:11, 2014; doi:[10.3389/frobt.2014.00011](http://dx.doi.org/10.3389/frobt.2014.00011) (pre-print: [arXiv:1408.3270](http://arxiv.org/abs/1408.3270))
 
@@ -37,7 +37,7 @@ See other PublicationsUsingThisToolkit.
 
 # News
 
-_19/7/2015_ - New jar and full distribution files available for *release v1.3*; Changes for v1.3 include:
+_19/7/2015_ - New jar and full distribution files available for **release v1.3**; Changes for v1.3 include:
 Added AutoAnalyser (Code Generator) GUI demo for MI and TE;
 Added auto-embedding capability via Ragwitz criteria for AIS and TE calculators (KSG estimators);
 Added Java demo 9 for showcasing use of Ragwitz auto-embedding;
@@ -47,18 +47,18 @@ Upgraded Python demos for Python 3 compatibility;
 Fixed bias correction on mixed discrete-continuous KSG calculators;
 Updated the tutorial slides to those in use for ECAL 2015 JIDT tutorial.
 
-_12/2/2015_ - New jar and full distribution files available for *release v1.2.1*; Changes for v1.2.1 include:
+_12/2/2015_ - New jar and full distribution files available for **release v1.2.1**; Changes for v1.2.1 include:
 Added tutorial slides, description of exercises and sample exercise solutions;
 Made jar target Java 1.6;
 Added Schreiber TE heart-breath rate with KSG estimator demo code for Python.
 
-_28/1/2015_ - New jar and full distribution files available for *release v1.2*; Changes for v1.2 include:
+_28/1/2015_ - New jar and full distribution files available for **release v1.2**; Changes for v1.2 include:
 Dynamic correlation exclusion, or Theiler window, added to all Kraskov estimators;
 Added univariate MI calculation to simple demo 6;
 Added Java code for Schreiber TE heart-breath rate with KSG estimator, ready for use as a template in Tutorial;
 Patch for crashes in KSG conditional MI algorithm 2.
 
-_20/11/2014_ - New jar and full distribution files available for *release v1.1*; Changes for v1.1 include:
+_20/11/2014_ - New jar and full distribution files available for **release v1.1**; Changes for v1.1 include:
 Implemented Fast Nearest Neighbour Search for Kraskov-Stögbauer-Grassberger (KSG) estimators for MI, conditional MI, TE, conditional TE, AIS, Predictive info, and multi-information. This includes a general (multivariate) k-d tree implementation;
 Added multi-threading (using all available processors by default) for the KSG estimators -- code contributed by Ipek Özdemir;
 Added Predictive information / Excess entropy implementations for KSG, kernel and Gaussian estimators;
@@ -68,7 +68,7 @@ Added property for adding a small amount of noise to data in all KSG estimators;
 
 _15/8/2014_ JIDT paper finalised and uploaded to the website and [arXiv:1408.3270](http://arxiv.org/abs/1408.3270)
 
-_14/8/2014_ - New jar and full distribution files available for our *first official release, v1.0*; Changes for v1.0 include: Added the draft of the paper on the toolkit to the release;
+_14/8/2014_ - New jar and full distribution files available for our **first official release, v1.0**; Changes for v1.0 include: Added the draft of the paper on the toolkit to the release;
 Javadocs made ready for release;
 Switched source->destination arguments for discrete TE calculators to be with source first in line with continuous calculators;
 Renamed all discrete calculators to have Discrete suffix -- TE and conditional TE calculators also renamed to remove "Apparent" prefix and change "Complete" to "Conditional";
@@ -85,9 +85,9 @@ _20/4/2014_ - New jar and full distribution files available for v0.2.0; Moved do
 
 _11/9/2013_ - New jar and full distribution files available for v0.1.4; added scripts to generate CA figures for 2013 book chapters; added general Java demo code; added Python demo code; made Octave/Matlab demos and CA demos properly compatible for Matlab; added extra Octave/Matlab general demos; added more unit tests for MI and conditional MI calculators, including against results from Wibral's TRENTOOL; bug fixes.
 
-_11/9/2013_ - New CA demo scripts for several review book chapters we're preparing in 2013 have been uploaded - see CellularAutomataDemos.
+_11/9/2013_ - New CA demo scripts for several review book chapters we're preparing in 2013 have been uploaded - see [CellularAutomataDemos](CellularAutomataDemos).
 
-_4/6/2013_ - Added instructions on how to [use in python](UseInPython) and several PythonExamples.
+_4/6/2013_ - Added instructions on how to [use in python](UseInPython) and several [PythonExamples](PythonExamples).
 
 _13/01/2013_ - New jar and full distribution files available for v0.1.3; existing Octave/Matlab demo code made compatible with Matlab; several bug fixes, including using max norm by default in Kraskov calculator (instead of requiring this to be set explicitly); more unit tests (including against results from Kraskov's own MI implementation)
 
