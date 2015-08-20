@@ -5,7 +5,7 @@
   * [Documentation](Documentation)
   * [Tutorial](Tutorial)
   * [Demos](Demos)
-* ImplementedMeasures
+* [ImplementedMeasures](ImplementedMeasures)
 * [Demos](Demos)
   * [Auto analyser demo](AutoAnalyser)
   * [Simple Java demos](SimpleJavaExamples)
