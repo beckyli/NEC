@@ -1,11 +1,11 @@
 _Frequently asked questions about the toolkit_
 
 On this page, we list several **frequently asked questions** about the toolkit (these are mostly excerpts from emails):
- * [What do I do about java.lang.OutOfMemoryError?](#What_do_I_do_about_java.lang.OutOfMemoryError?)
- * [How can I build JIDT from the latest SVN sources?](#How_can_I_build_JIDT_from_the_latest_SVN_sources?)
- * [How fast is the toolkit, e.g. for transfer entropy estimation?](#How_fast_is_the_toolkit,_e.g._for_transfer_entropy_estimation?)
- * [Can the Kraskov-Stoegbauer-Grassberger estimator add noise to the data?](#Can_the_Kraskov-Stoegbauer-Grassberger_estimator_add_noise_to_the_data?)
- * [How do I set the Kraskov-Stoegbauer-Grassberger estimator for transfer entropy to use algorithm 2?](#How_do_I_set_the_Kraskov-Stoegbauer-Grassberger_estimator_for_tr)
+ * [What do I do about java.lang.OutOfMemoryError?](#what-do-i-do-about-javalangoutofmemoryerror)
+ * [How can I build JIDT from the latest SVN sources?](#how-can-i-build-jidt-from-the-latest-svn-sources)
+ * [How fast is the toolkit, e.g. for transfer entropy estimation?](#how-fast-is-the-toolkit-eg-for-transfer-entropy-estimation)
+ * [Can the Kraskov-Stoegbauer-Grassberger estimator add noise to the data?](#can-the-kraskov-stoegbauer-grassberger-estimator-add-noise-to-the-data)
+ * [How do I set the Kraskov-Stoegbauer-Grassberger estimator for transfer entropy to use algorithm 2?](#how-do-i-set-the-kraskov-stoegbauer-grassberger-estimator-for-transfer-entropy-to-use-algorithm-2)
 
 ### What do I do about `java.lang.OutOfMemoryError`?
 
