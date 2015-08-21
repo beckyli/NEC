@@ -1,7 +1,7 @@
 _List of publications including results which were produced using this toolkit_
 
 The publication introducing JIDT is:
-  * J. T. Lizier, ["JIDT: An information-theoretic toolkit for studying the dynamics of complex systems"](http://arxiv.org/abs/1408.3270) _Frontiers in Robotics and AI_ 1:11, 2014; doi:[10.3389/frobt.2014.00011](http://dx.doi.org/10.3389/frobt.2014.00011) (pre-print including supplementary info: [arXiv:1408.3270](http://arxiv.org/abs/1408.3270))
+>> J. T. Lizier, ["JIDT: An information-theoretic toolkit for studying the dynamics of complex systems"](http://arxiv.org/abs/1408.3270) _Frontiers in Robotics and AI_ 1:11, 2014; doi:[10.3389/frobt.2014.00011](http://dx.doi.org/10.3389/frobt.2014.00011) (pre-print including supplementary info: [arXiv:1408.3270](http://arxiv.org/abs/1408.3270))
 
 ## My publications
 
@@ -27,6 +27,7 @@ Other articles where we used the toolkit but didn't cite it (usually because the
 
 Publications by other authors using JIDT to produce results include:
 
+  * M. Harré, ["Entropy and Transfer Entropy: The Dow Jones and the Build Up to the 1997 Asian Crisis"](http://dx.doi.org/10.1007/978-3-319-20591-5_2), in H. Takayasu et al. (eds.), Proceedings of the International Conference on Social Modeling and Simulation, plus Econophysics Colloquium 2014, Springer Proceedings in Complexity, pp. 15-25, 2015.
   * S. Dasgupta, F. Woergoetter, P. Manoonpong, ["Information dynamics based self-adaptive reservoir for delay temporal memory tasks"](http://dx.doi.org/10.1007/s12530-013-9080-y), Evolving Systems, 4(4), pp 235-249, 2013.
   * J. Boedecker, A. Lazar, O. Obst, A. Zeman, ["Effects of STDP and Intrinsic Plasticity on Information Dynamics in a Self-Organising Recurrent Neural Network"](http://prokopenko.net/abstracts/Boedecker-etal.pdf), Sixth International Workshop on Guided Self-Organizationl, 2013. (abstract)
 
