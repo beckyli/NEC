@@ -3,6 +3,27 @@ _List of publications including results which were produced using this toolkit_
 The publication introducing JIDT is:
 >> J. T. Lizier, ["JIDT: An information-theoretic toolkit for studying the dynamics of complex systems"](http://arxiv.org/abs/1408.3270) _Frontiers in Robotics and AI_ 1:11, 2014; doi:[10.3389/frobt.2014.00011](http://dx.doi.org/10.3389/frobt.2014.00011) (pre-print including supplementary info: [arXiv:1408.3270](http://arxiv.org/abs/1408.3270))
 
+## Publications by other authors
+
+Publications by other authors using JIDT to produce results include the following.
+
+Please let me know if you have published a paper using JIDT so I can add it here!
+
+  * J. Rodewald, J. Colombi, K. Oyama, A. Johnson, ["Using Information-theoretic Principles to Analyze and Evaluate Complex Adaptive Supply Network Architectures"](http://dx.doi.org/10.1016/j.procs.2015.09.176), Procedia Computer Science, 61, pp. 147-152, 2015.
+  * J. M. McCracken, ["Exploratory Causal Analysis in Bivariate Time Series Data"](http://bobweigel.net/projects/images/JMMcCracken_thesis_submitteddraft.pdf), Thesis, 2015.
+  * M. Harré, ["Entropy and Transfer Entropy: The Dow Jones and the Build Up to the 1997 Asian Crisis"](http://dx.doi.org/10.1007/978-3-319-20591-5_2), in H. Takayasu et al. (eds.), Proceedings of the International Conference on Social Modeling and Simulation, plus Econophysics Colloquium 2014, Springer Proceedings in Complexity, pp. 15-25, 2015.
+  * S. Dasgupta, F. Woergoetter, P. Manoonpong, ["Information dynamics based self-adaptive reservoir for delay temporal memory tasks"](http://dx.doi.org/10.1007/s12530-013-9080-y), Evolving Systems, 4(4), pp 235-249, 2013.
+  * J. Boedecker, A. Lazar, O. Obst, A. Zeman, ["Effects of STDP and Intrinsic Plasticity on Information Dynamics in a Self-Organising Recurrent Neural Network"](http://prokopenko.net/abstracts/Boedecker-etal.pdf), Sixth International Workshop on Guided Self-Organization, 2013. (abstract)
+
+<!--
+Publications by other authors mentioning this toolkit:
+
+  * F. Effenberger, ["A primer on information theory, with applications to neuroscience"](http://arxiv.org/abs/1304.2333), arXiv:1304.2333, 2013.-->
+
+## JIDT packaged inside other software:
+
+  * [HCTSA](http://benfulcher.github.io/hctsa/) (Highly Comparative Time-Series Analysis) by [Ben Fulcher](http://www.benfulcher.com/)
+
 ## My publications
 
 My publications using results produced by JIDT include:
@@ -23,15 +44,3 @@ Other articles where we used the toolkit but didn't cite it (usually because the
 - etc
 -->
 
-## Publications by other authors
-
-Publications by other authors using JIDT to produce results include:
-
-  * M. Harré, ["Entropy and Transfer Entropy: The Dow Jones and the Build Up to the 1997 Asian Crisis"](http://dx.doi.org/10.1007/978-3-319-20591-5_2), in H. Takayasu et al. (eds.), Proceedings of the International Conference on Social Modeling and Simulation, plus Econophysics Colloquium 2014, Springer Proceedings in Complexity, pp. 15-25, 2015.
-  * S. Dasgupta, F. Woergoetter, P. Manoonpong, ["Information dynamics based self-adaptive reservoir for delay temporal memory tasks"](http://dx.doi.org/10.1007/s12530-013-9080-y), Evolving Systems, 4(4), pp 235-249, 2013.
-  * J. Boedecker, A. Lazar, O. Obst, A. Zeman, ["Effects of STDP and Intrinsic Plasticity on Information Dynamics in a Self-Organising Recurrent Neural Network"](http://prokopenko.net/abstracts/Boedecker-etal.pdf), Sixth International Workshop on Guided Self-Organizationl, 2013. (abstract)
-
-<!--
-Publications by other authors mentioning this toolkit:
-
-  * F. Effenberger, ["A primer on information theory, with applications to neuroscience"](http://arxiv.org/abs/1304.2333), arXiv:1304.2333, 2013.-->
