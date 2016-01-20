@@ -9,6 +9,7 @@ Publications by other authors using JIDT to produce results include the followin
 
 Please let me know if you have published a paper using JIDT so I can add it here!
 
+  * D. G. Hurley, J. Cursons, Y. K. Wang, D. M. Budden, C. G. Print, and E. J. Crampin, ["NAIL, a software toolset for inferring, analyzing and visualizing regulatory networks"](http://dx.doi.org/10.1093/bioinformatics/btu612), Bioinformatics, in press, 2015.
   * J. Rodewald, J. Colombi, K. Oyama, A. Johnson, ["Using Information-theoretic Principles to Analyze and Evaluate Complex Adaptive Supply Network Architectures"](http://dx.doi.org/10.1016/j.procs.2015.09.176), Procedia Computer Science, 61, pp. 147-152, 2015.
   * J. M. McCracken, ["Exploratory Causal Analysis in Bivariate Time Series Data"](http://bobweigel.net/projects/images/JMMcCracken_thesis_submitteddraft.pdf), Thesis, 2015.
   * M. Harré, ["Entropy and Transfer Entropy: The Dow Jones and the Build Up to the 1997 Asian Crisis"](http://dx.doi.org/10.1007/978-3-319-20591-5_2), in H. Takayasu et al. (eds.), Proceedings of the International Conference on Social Modeling and Simulation, plus Econophysics Colloquium 2014, Springer Proceedings in Complexity, pp. 15-25, 2015.
@@ -23,6 +24,7 @@ Publications by other authors mentioning this toolkit:
 ## JIDT packaged inside other software:
 
   * [HCTSA](http://benfulcher.github.io/hctsa/) (Highly Comparative Time-Series Analysis) by [Ben Fulcher](http://www.benfulcher.com/)
+  * [NAIL](https://sourceforge.net/projects/nailsystemsbiology/) (Network Analysis and Inference Library) by Daniel G. Hurley, Joseph Cursons, Yi Kan Wang, David M. Budden, Cristin G. Print, and Edmund J. Crampin. 
 
 ## My publications
 
