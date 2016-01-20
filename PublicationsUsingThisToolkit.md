@@ -24,7 +24,8 @@ Publications by other authors mentioning this toolkit:
 ## JIDT packaged inside other software:
 
   * [HCTSA](http://benfulcher.github.io/hctsa/) (Highly Comparative Time-Series Analysis) by [Ben Fulcher](http://www.benfulcher.com/)
-  * [NAIL](https://sourceforge.net/projects/nailsystemsbiology/) (Network Analysis and Inference Library) by Daniel G. Hurley, Joseph Cursons, Yi Kan Wang, David M. Budden, Cristin G. Print, and Edmund J. Crampin. 
+  * [NAIL](https://sourceforge.net/projects/nailsystemsbiology/) (Network Analysis and Inference Library) by Daniel G. Hurley, Joseph Cursons, Yi Kan Wang, David M. Budden, Cristin G. Print, and Edmund J. Crampin
+  * [FaultMap](https://github.com/SimonStreicher/FaultMap) by Simon Streicher
 
 ## My publications
 
