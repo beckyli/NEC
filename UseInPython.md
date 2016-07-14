@@ -20,7 +20,9 @@ As such, here we will only describe use via JPype, though of course you could us
 
 The first step is to install JPype. On ubuntu for Python 2, one simply installs `python-jpype` via the ubuntu package manager. On other platforms, install as you would other python extensions (e.g. via `pip install jpype`).
 
-For Python 3, you may need to install a slightly different version of JPype, e.g. on ubuntu linux it has been reported that `pip3 install jpype1` (You might need to `sudo` that) will install a python 3 compatible JPype (thanks to Michael Wibral). `jpype1-py3` is another available package, however it seems that `jpype1` is more efficient.
+For Python 3, you may need to install a slightly different version of JPype:
+ * On ubuntu linux it has been reported that `pip3 install jpype1` (You might need to `sudo` that) will install a python 3 compatible JPype (thanks to Michael Wibral). `jpype1-py3` is another available package, however it seems that `jpype1` is more efficient.
+ * On windows it has been reported that this works inside anaconda: `pip install -i https://pypi.anaconda.org/pypi/simple jpype1` (thanks to Jonathan de Vries)
 
 You can then run your java code fairly simply in python with JPype:
  1. Import the relevant packages from jPype, e.g.: `from jpype import *`
