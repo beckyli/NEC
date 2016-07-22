@@ -338,7 +338,7 @@ numObservations = 100000;
 covarianceToSource = 0.4;
 covarianceToConds = [0.3,0.3];
 if (sumsq([covarianceToSource, covarianceToConds]) >= 1)
-	error("Sum of squares of the covariances must be < 1 here");
+	error('Sum of squares of the covariances must be < 1 here');
 end
 noiseCovar = sqrt(1 - sumsq([covarianceToSource, covarianceToConds]));
 
