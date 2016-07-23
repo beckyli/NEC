@@ -17,6 +17,7 @@ This page contains the following code examples:
   * [Example 4 - Transfer entropy on continuous data using Kraskov estimators](#example-4---transfer-entropy-on-continuous-data-using-kraskov-estimators)
   * [Example 5 - Multivariate transfer entropy on binary data](#example-5---multivariate-transfer-entropy-on-binary-data)
   * [Example 6 - Dynamic dispatch with Mutual info calculator](#example-6---dynamic-dispatch-with-mutual-info-calculator)
+  * [Example 7 - Ensemble method with transfer entropy on continuous data using Kraskov estimators](#example-7---ensemble-method-with-transfer-entropy-on-continuous-data-using-kraskov-estimators)
   * [Example 9 - Transfer entropy on continuous data using Kraskov estimators with auto-embedding](#example-9---transfer-entropy-on-continuous-data-using-kraskov-estimators-with-auto-embedding)
 
 ## Example 1 - Transfer entropy on binary data
@@ -311,6 +312,72 @@ miJointValue = miCalc.computeAverageLocalOfObservations()
 print("MI calculator %s computed the univariate MI(%d;%d) as %.5f and joint MI([%s];[%s]) as %.5f\n" %
 	(implementingClass, univariateSeries1Column, univariateSeries2Column, miUnivariateValue,
 	str(jointVariable1Columns).strip('[]'), str(jointVariable2Columns).strip('[]'), miJointValue))
+```
+
+## Example 7 - Ensemble method with transfer entropy on continuous data using Kraskov estimators
+
+[example7EnsembleMethodTeContinuousDataKraskov.py](../blob/master/demos/python/example7EnsembleMethodTeContinuousDataKraskov.py) - This example shows calculation of transfer entropy (TE) by supplying an ensemble of samples from multiple time series. We use continuous-valued data using the Kraskov-estimator TE calculator here. We also demonstrated local TE calculation in this case. The py file will be available in distributions from v1.4.
+
+```python
+from jpype import *
+import random
+import math
+
+# Change location of jar to match yours:
+jarLocation = "../../infodynamics.jar"
+# Start the JVM (add the "-Xmx" option with say 1024M if you get crashes due to not enough memory space)
+startJVM(getDefaultJVMPath(), "-ea", "-Djava.class.path=" + jarLocation)
+
+# Generate some random normalised data.
+numObservations = 1000
+covariance=0.4
+numTrials=10
+kHistoryLength=1
+
+# Create a TE calculator and run it:
+teCalcClass = JPackage("infodynamics.measures.continuous.kraskov").TransferEntropyCalculatorKraskov
+teCalc = teCalcClass()
+teCalc.setProperty("k", "4") # Use Kraskov parameter K=4 for 4 nearest points
+teCalc.initialise(kHistoryLength) # Use target history length of kHistoryLength (Schreiber k)
+teCalc.startAddObservations()
+
+for trial in range(0,numTrials):
+	# Create a new trial, with destArray correlated to
+	#  previous value of sourceArray:
+	sourceArray = [random.normalvariate(0,1) for r in range(numObservations)]
+	destArray = [0] + [sum(pair) for pair in zip([covariance*y for y in sourceArray[0:numObservations-1]], \
+		[(1-covariance)*y for y in [random.normalvariate(0,1) for r in range(numObservations-1)]] ) ]
+	
+	# Add observations for this trial:
+	print("Adding samples from trial %d ..." % trial)
+	teCalc.addObservations(JArray(JDouble, 1)(sourceArray), JArray(JDouble, 1)(destArray))
+
+# We've finished adding trials:
+print("Finished adding trials")
+teCalc.finaliseAddObservations()
+
+# Compute the result:
+print("Computing TE ...")
+result = teCalc.computeAverageLocalOfObservations()
+# Note that the calculation is a random variable (because the generated
+#  data is a set of random variables) - the result will be of the order
+#  of what we expect, but not exactly equal to it; in fact, there will
+#  be some variance around it (smaller than example 4 since we have more samples).
+print("TE result %.4f nats; expected to be close to %.4f nats for these correlated Gaussians " % \
+	(result, math.log(1.0/(1-math.pow(covariance,2)))))
+
+# And here's how to pull the local TEs out corresponding to each input time series.
+# Normally you would need to track how to split these up yourself -- here
+# it's easy because our input time series are all of the same length
+localTEs=teCalc.computeLocalOfPreviousObservations()
+localValuesPerTrial = int(len(localTEs)/numTrials)  # Need to convert to int for indices later
+for trial in range(0,numTrials):
+	startIndex = localValuesPerTrial*trial
+	endIndex = localValuesPerTrial*(trial+1)-1
+	print("Local TEs for trial %d go from array index %d to %d" % (trial, startIndex, endIndex))
+	print("  corresponding to time points %d:%d (indexed from 0) of that trial" % (kHistoryLength, numObservations-1))
+	# Access the local TEs for this trial as:
+	localTEForThisTrial = localTEs[startIndex:endIndex]
 ```
 
 ## Example 9 - Transfer entropy on continuous data using Kraskov estimators with auto-embedding
