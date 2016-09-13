@@ -6,6 +6,7 @@ On this page, we list several **frequently asked questions** about the toolkit (
  * [How fast is the toolkit, e.g. for transfer entropy estimation?](#how-fast-is-the-toolkit-eg-for-transfer-entropy-estimation)
  * [What does it mean if I get negative results from a Kraskov-Stoegbauer-Grassberger estimator?](#what-does-it-mean-if-i-get-negative-results-from-a-kraskov-stoegbauer-grassberger-estimator)
  * [Can the Kraskov-Stoegbauer-Grassberger estimator add noise to the data?](#can-the-kraskov-stoegbauer-grassberger-estimator-add-noise-to-the-data)
+ * [Why are my results from a Kraskov-Stoegbauer-Grassberger estimator stochastic?](#why-are-my-results-from-a-kraskov-stoegbauer-grassberger-estimator-stochastic)
  * [How do I set the Kraskov-Stoegbauer-Grassberger estimator for transfer entropy to use algorithm 2?](#how-do-i-set-the-kraskov-stoegbauer-grassberger-estimator-for-transfer-entropy-to-use-algorithm-2)
 
 ### What do I do about `java.lang.OutOfMemoryError`?
@@ -72,7 +73,13 @@ teCalc.setProperty("NOISE_LEVEL_TO_ADD", "0.00000001");
 
 *Please note*: as of release v1.3 the addition of noise using the KSG estimator is switched on by default.
 
+Importantly -- the addition of noise means that the results of the KSG estimators become (slightly) stochastic. If you need to produce repeatable results, then you can simply turn off the noise addition by setting property `NOISE_LEVEL_TO_ADD` to `0`. (If you still need noise added, but want this to be repeatable, then I suggest you do this yourself before calling JIDT, using a fixed random number seed).
+
 More details are shown in the [Javadocs](Documentation) for the `setProperty(String, String)` method for each relevant calculator.
+
+### Why are my results from a Kraskov-Stoegbauer-Grassberger estimator stochastic?
+
+See the FAQ [Can the Kraskov-Stoegbauer-Grassberger estimator add noise to the data?](#can-the-kraskov-stoegbauer-grassberger-estimator-add-noise-to-the-data), including the suggestion on how to turn this feature off if you need to.
 
 ### How do I set the Kraskov-Stoegbauer-Grassberger estimator for transfer entropy to use algorithm 2?
 
