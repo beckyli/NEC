@@ -33,7 +33,11 @@ You can then run your java code fairly simply in python with JPype:
  1. Shutdown the JVM when it's no longer required, e.g.: `shutdownJVM()`
 
 **Array conversion** between python and java requires some extra code, but is perfectly do-able - see sections [6](http://jpype.sourceforge.net/doc/user-guide/userguide.html#arrays) and [7](http://jpype.sourceforge.net/doc/user-guide/userguide.html#conversion) of the [JPype user guide](http://jpype.sourceforge.net/doc/user-guide/userguide.html).
-_For example_, to convert a one-dimensional python array `myArray` to a java one dimensional array of doubles, use `JArray(JDouble, 1)(myArray)` -- see e.g. [Example 3 in PythonExamples](PythonExamples#example-3---transfer-entropy-on-continuous-data-using-kernel-estimators). Alternatively, if you use [numpy](http://www.numpy.org/).array objects these seem to be directly accepted by the java methods -- see e.g. [Example 6](PythonExamples#example-6---dynamic-dispatch-with-mutual-info-calculator) and [Example 9 in PythonExamples](PythonExamples#example-9---transfer-entropy-on-continuous-data-using-kraskov-estimators-with-auto-embedding) -- and indeed I think this is preferable at least in python3 with jpype1.
+_For example_, to convert a one-dimensional python array `myArray` to a java one dimensional array of doubles, use `JArray(JDouble, 1)(myArray)` -- see e.g. [Example 3 in PythonExamples](PythonExamples#example-3---transfer-entropy-on-continuous-data-using-kernel-estimators).
+
+**Numpy** Alternatively, if you use [numpy](http://www.numpy.org/).array objects these are (_somewhat_) directly accepted by the java methods:
+* For doubles (continuous variables), yes you can pass numpy arrays straight through -- see e.g. [Example 6](PythonExamples#example-6---dynamic-dispatch-with-mutual-info-calculator) and [Example 9 in PythonExamples](PythonExamples#example-9---transfer-entropy-on-continuous-data-using-kraskov-estimators-with-auto-embedding) -- these work in both python 2 and python 3, and indeed I think this is preferable at least in python3 with jpype1.
+* For ints (discrete variables), you can only pass numpy arrays straight through in python 2 with jpype, whereas with python 3 with jpype1 you need to convert the numpy array to a list and then a jpype.JArray -- see e.g. the code and comments in [Example 1](PythonExamples#example-1---transfer-entropy-on-binary-data)
 
 For static methods, you can call them on the reference to the class itself.
 
