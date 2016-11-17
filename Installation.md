@@ -7,8 +7,8 @@ Here we describe how to install and start using the toolkit (it's pretty simple!
 ## Download
 
 Download the latest distribution; either (note: these distributions are suitable for all platforms):
- 1. [v1.3 full distribution](http://lizier.me/joseph/software/jidt/download.php?file=infodynamics-dist-1.3.zip) -- this is *recommended* for most users (includes jar file, javadocs, demonstrations, unit tests and build scripts); or
- 1. [v1.3 jar](http://lizier.me/joseph/software/jidt/download.php?file=infodynamics-jar-1.3.zip) only (use only if you don't need much guidance on how to use the toolkit);
+ 1. [v1.3.1 full distribution](http://lizier.me/joseph/software/jidt/download.php?file=infodynamics-dist-1.3.1.zip) -- this is *recommended* for most users (includes jar file, javadocs, demonstrations, unit tests and build scripts); or
+ 1. [v1.3.1 jar](http://lizier.me/joseph/software/jidt/download.php?file=infodynamics-jar-1.3.1.zip) only (use only if you don't need much guidance on how to use the toolkit);
  1. git repository -- the bleeding edge, use only to stay right up to date, but be aware that compilation could break at any time -- see [https://github.com/jlizier/jidt](https://github.com/jlizier/jidt). See [AntScripts](AntScripts) for build instructions.
 
 See all distributions and brief descriptions at [Downloads](Downloads).
