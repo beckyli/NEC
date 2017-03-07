@@ -63,5 +63,6 @@ What would you interpret from the results? Can you think of some logical further
 
 ## Where this tutorial has been run
 
- 1. [European Conference on Artificial Life](http://www.cs.york.ac.uk/nature/ecal2015/), July 20, 2015 -- see [our page](Tutorial_ECAL2015) for this tutorial
- 1. [Australian Conference on Artificial Life and Computational Intelligence](http://www.newcastle.edu.au/about-uon/governance-and-leadership/faculties-and-schools/faculty-of-engineering-and-built-environment/school-of-electrical-engineering-and-computer-science/acalci-2015/workshops-and-tutorials), February 5, 2015
+ 1. [Complexity, Criticality and Computation (C^3) Research Camp](http://sydney.edu.au/perkins/events/featured-events/c3-research-camp.shtml), December 2, 2015.
+ 1. [European Conference on Artificial Life](http://www.cs.york.ac.uk/nature/ecal2015/), July 20, 2015 -- see [our page](Tutorial_ECAL2015) for this tutorial.
+ 1. [Australian Conference on Artificial Life and Computational Intelligence](http://www.newcastle.edu.au/about-uon/governance-and-leadership/faculties-and-schools/faculty-of-engineering-and-built-environment/school-of-electrical-engineering-and-computer-science/acalci-2015/workshops-and-tutorials), February 5, 2015.
