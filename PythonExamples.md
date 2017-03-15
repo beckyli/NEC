@@ -331,7 +331,7 @@ print("MI calculator %s computed the univariate MI(%d;%d) as %.5f and joint MI([
 
 ## Example 7 - Ensemble method with transfer entropy on continuous data using Kraskov estimators
 
-[example7EnsembleMethodTeContinuousDataKraskov.py](../blob/master/demos/python/example7EnsembleMethodTeContinuousDataKraskov.py) - This example shows calculation of transfer entropy (TE) by supplying an ensemble of samples from multiple time series. We use continuous-valued data using the Kraskov-estimator TE calculator here. We also demonstrated local TE calculation in this case. The py file will be available in distributions from v1.4.
+[example7EnsembleMethodTeContinuousDataKraskov.py](../blob/master/demos/python/example7EnsembleMethodTeContinuousDataKraskov.py) - This example shows calculation of transfer entropy (TE) by supplying an ensemble of samples from multiple time series. We use continuous-valued data using the Kraskov-estimator TE calculator here. We also demonstrated local TE calculation in this case. The py file is be available in distributions from v1.3.1.
 
 ```python
 from jpype import *
