@@ -18,7 +18,7 @@ See all distributions and brief descriptions at [Downloads](Downloads).
 None! You don't need any other downloads to start using this code _in general_.
 
 There are only dependencies if:
- 1. You don't have java installed - download it from [http://java.com/](http://java.com/);
+ 1. You don't have java installed - [download the Java SE / JDK](http://www.oracle.com/technetwork/java/javase/overview/index.html). It's better to install the JDK (development kit) instead of [JRE](http://java.com/) (runtime environment), since this will allow you to make Java code changes instead of only running the java code;
  1. You wish to (re-)build the project (if you're changing the source files or using an svn checkout) using the `build.xml` script - this requires [ant](http://ant.apache.org/). See [AntScripts](AntScripts) for build instructions;
  1. You wish to run the JUnit test cases - this requires [JUnit](http://www.junit.org/) - for how to run JUnit with our ant script see [JUnitTestCases](JUnitTestCases) and AntScripts;
  1. Additional preparation may be required to use JIDT in GNU Octave or Python; see [UseInOctaveMatlab](UseInOctaveMatlab) or [UseInPython](UseInPython) respectively.
