@@ -29,10 +29,11 @@ Publications by other authors mentioning this toolkit:
   * [NAIL](https://sourceforge.net/projects/nailsystemsbiology/) (Network Analysis and Inference Library) by Daniel G. Hurley, Joseph Cursons, Yi Kan Wang, David M. Budden, Cristin G. Print, and Edmund J. Crampin
   * [FaultMap](https://github.com/SimonStreicher/FaultMap) by Simon Streicher
 
-## My publications
+## Publications by contributors to JIDT:
 
-My publications using results produced by JIDT include:
+Publications from the JIDT contributors using results produced by JIDT include (this is far from a complete list!):
 
+  * P. A. M. Mediano, M. Shanahan, ["Balanced Information Storage and Transfer in Modular Spiking Neural Networks"](https://arxiv.org/abs/1708.04392), arXiv:1708.04392, 2017.
   * X. R. Wang, J. T. Lizier, T. Nowotny, A. Z. Berna, M. Prokopenko, S. C. Trowell, ["Feature Selection for Chemical Sensor Arrays Using Mutual Information"](http://dx.doi.org/10.1371/journal.pone.0089840), PLoS ONE 9(3): e89840.
   * C. Gomez, J.T. Lizier, M. Schaum, P. Wollstadt, C. Gruetzner, P. Uhlhaas, C. Freitag, S. Schlitt, S. Boelte, R. Hornero and M. Wibral, ["Reduced predictable information in brain signals in autism spectrum disorder"](http://dx.doi.org/10.3389/fninf.2014.00009), Frontiers in Neuroinformatics, vol. 8, no. 9, 2014.
   * M. Wibral, J. T. Lizier, S. Voegler, V. Priesemann and R. Galuske, ["Local active information storage as a tool to understand distributed neural information processing"](http://dx.doi.org/10.3389/fninf.2014.00001), in Frontiers in Neuroinformatics, vol. 8, no. 1, 2014.
