@@ -41,11 +41,11 @@ _Otherwise_, material that I found useful regarding using Java code inside Octav
 
 Here is a list of how I got octave-java installed prior to octave 3.8 (i.e. on ubuntu 12.04 for me):
   1. Set-up steps:
-    1. Set up an environment variable for JAVA_HOME - for me `/usr/lib/jvm/java-6-openjdk-amd64`
-    1. Make sure that `$JAVA_HOME/jre/lib/<ARCH>/client/libjvm.so` exists - on 64-bit machines, the required file exists in `server` directory, not `client`. We can get around this by adding a symlink - I created the directory `client` and symlink from inside the `client` directory to the file in the `server` directory. I've been told that an alternative fix is to change the `_java_.cc` file as described [here](http://sourceforge.net/mailarchive/message.php?msg_id=28038447).
+      1. Set up an environment variable for JAVA_HOME - for me `/usr/lib/jvm/java-6-openjdk-amd64`
+      1. Make sure that `$JAVA_HOME/jre/lib/<ARCH>/client/libjvm.so` exists - on 64-bit machines, the required file exists in `server` directory, not `client`. We can get around this by adding a symlink - I created the directory `client` and symlink from inside the `client` directory to the file in the `server` directory. I've been told that an alternative fix is to change the `_java_.cc` file as described [here](http://sourceforge.net/mailarchive/message.php?msg_id=28038447).
   1. Install [octave-java](http://octave.sourceforge.net/java/) from the [Octave-forge project](http://octave.sourceforge.net/) either:
-    1. through your linux package manager (this didn't work properly for me on ubuntu 12.04), or
-    1. via directly downloading the `.tar.gz` file from http://octave.sourceforge.net/java/ then starting octave in root mode (`sudo octave`), and inside octave run the installation, e.g.: `pkg install -verbose java-1.2.8.tar.gz`. To uninstall at a later date, you can run: `pkg uninstall java`. After running the installation in root mode, you will need to add read access for yourself to the `doc.info` file for running the `doc java` command.
+      1. through your linux package manager (this didn't work properly for me on ubuntu 12.04), or
+      1. via directly downloading the `.tar.gz` file from http://octave.sourceforge.net/java/ then starting octave in root mode (`sudo octave`), and inside octave run the installation, e.g.: `pkg install -verbose java-1.2.8.tar.gz`. To uninstall at a later date, you can run: `pkg uninstall java`. After running the installation in root mode, you will need to add read access for yourself to the `doc.info` file for running the `doc java` command.
 
 Once all that is set up, you can run your java code just as simply as in Matlab:
   1. Tell octave-java about your jar, e.g.: `javaaddpath('../Information Dynamics/infoDynamics.jar');`
