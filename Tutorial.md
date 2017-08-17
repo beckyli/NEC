@@ -15,7 +15,7 @@ The slides introduce the information-theoretic measures and estimation technique
 
 A shorter 30-minute presentation is available [here](http://lizier.me/joseph/presentations/20150223-Lizier-JIDT-V1.1.pdf), though obviously it does not walk the user through using JIDT in the same level of detail.
 
-## Excercise
+## Exercise
 
 To consolidate your understanding of the toolkit, you will complete a task of applying one of the calculators to one of the sample data sets to create some new insights. The exercise comes with some code to get started in Java, Matlab/Octave and Python.
 
@@ -30,9 +30,9 @@ Your exercise task is to:
 You can either:
  1. write code for this from scratch in your preferred environment (the data set is at [demos/data/SFI-heartRate_breathVol_bloodOx.txt](../blob/master/demos/data/SFI-heartRate_breathVol_bloodOx.txt) with heart rate in the first column and breath rate in the second), or
  1. you can start by using one of our sample scripts which calculate Transfer Entropy on this data set as a template. These samples include code to read in the data and parse the arguments. There are samples available for Transfer Entropy here in either:
-  1. Java (source file at [demos/java/infodynamics/demos/schreiberTransferEntropyExamples/HeartBreathRateKraskovRunner.java](../blob/master/demos/java/infodynamics/demos/schreiberTransferEntropyExamples/HeartBreathRateKraskovRunner.java) and shell script to run it at [demos/java/SchreiberTransferEntropyExamples/heartRateBreathRateKraskov.sh](../blob/master/demos/java/SchreiberTransferEntropyExamples/heartRateBreathRateKraskov.sh) ) or
-  1. Octave ([demos/octave/SchreiberTransferEntropyExamples/runHeartBreathRateKraskov.m](../blob/master/demos/octave/SchreiberTransferEntropyExamples/runHeartBreathRateKraskov.m)) or
-  1. Python ([demos/python/SchreiberTransferEntropyExamples/runHeartBreathRateKraskov.py](../blob/master/demos/python/SchreiberTransferEntropyExamples/runHeartBreathRateKraskov.py)).
+     1. Java (source file at [demos/java/infodynamics/demos/schreiberTransferEntropyExamples/HeartBreathRateKraskovRunner.java](../blob/master/demos/java/infodynamics/demos/schreiberTransferEntropyExamples/HeartBreathRateKraskovRunner.java) and shell script to run it at [demos/java/SchreiberTransferEntropyExamples/heartRateBreathRateKraskov.sh](../blob/master/demos/java/SchreiberTransferEntropyExamples/heartRateBreathRateKraskov.sh) ) or
+     1. Octave ([demos/octave/SchreiberTransferEntropyExamples/runHeartBreathRateKraskov.m](../blob/master/demos/octave/SchreiberTransferEntropyExamples/runHeartBreathRateKraskov.m)) or
+     1. Python ([demos/python/SchreiberTransferEntropyExamples/runHeartBreathRateKraskov.py](../blob/master/demos/python/SchreiberTransferEntropyExamples/runHeartBreathRateKraskov.py)).
  1. (*easiest way*) you can auto-generate some code to get started by using our AutoAnalyser demo. Follow the steps for using this demo described on its [webpage](AutoAnalyser), including using the MI AutoAnalyser, and selecting the correct data file, the columns for the variables and the properties for the calculator. Note that the auto-generated code will use the entire data set from the file; to use the smaller set of samples you would need to edit the auto-generated code.
 
 The *answer* that you are looking for is **0.134 nats** (+/- 0.002 nats, due to use of noise addition by the calculator) if you set only the properties mentioned above (e.g. don't change addition of noise to the data, or add dynamic correlation exclusion, etc.). If you use the _whole_ data set without constraining to samples 2350 to 3550, then you should expect to get **0.0994 nats** +/- 0.0005.
