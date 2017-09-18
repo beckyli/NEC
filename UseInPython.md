@@ -5,6 +5,11 @@ _How to use the toolkit in Python_
 The java code from this toolkit can easily be used in Python.
 First we describe calling java code from Python, then specifically describe the use of this toolkit.
 
+In summary, you will need to install the following dependencies:
+* A [Java SE / JDK](http://www.oracle.com/technetwork/java/javase/overview/index.html)
+* Python jpype package (see below)
+* Python numpy package (see below)
+
 Several longer examples of using the toolkit in Python can be viewed at [PythonExamples](PythonExamples).
 
 ## Using Java objects in Python
