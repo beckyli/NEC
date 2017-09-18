@@ -38,6 +38,7 @@ _For example_, to convert a one-dimensional python array `myArray` to a java one
 **Numpy** Alternatively, if you use [numpy](http://www.numpy.org/).array objects these are (_somewhat_) directly accepted by the java methods:
 * For doubles (continuous variables), yes you can pass numpy arrays straight through -- see e.g. [Example 6](PythonExamples#example-6---dynamic-dispatch-with-mutual-info-calculator) and [Example 9 in PythonExamples](PythonExamples#example-9---transfer-entropy-on-continuous-data-using-kraskov-estimators-with-auto-embedding) -- these work in both python 2 and python 3, and indeed I think this is preferable at least in python3 with jpype1.
 * For ints (discrete variables), you can only pass numpy arrays straight through in python 2 with jpype, whereas with python 3 with jpype1 you need to convert the numpy array to a list and then a jpype.JArray -- see e.g. the code and comments in [Example 1](PythonExamples#example-1---transfer-entropy-on-binary-data)
+The AutoAnalyser demo requires the numpy library in order to perform array conversion.
 
 For static methods, you can call them on the reference to the class itself.
 
