@@ -9,6 +9,8 @@ Publications by other authors using JIDT to produce results include the followin
 
 Please let me know if you have published a paper using JIDT so I can add it here!
 
+  * P.  Warchol, ["Buses of Cuernavaca - an agent-based model for universal random matrix behavior minimizing
+mutual information"](https://arxiv.org/pdf/1709.10104.pdf), arXiv:1709.10104, 2017.
   * M. C. Andrews, J. Cursons, D. G. Hurley, M. Anaka, J. S. Cebon, A. Behren and E. J. Crampin, ["Systems analysis identifies miR-29b regulation of invasiveness in melanoma"](http://dx.doi.org/10.1186/s12943-016-0554-y), Molecular Cancer, 15:72, 2016.
   * P. Wollstadt, K. K. Sellers, L. Rudelt, V. Priesemann, A. Hutt, F. Froehlich, M. Wibral, ["The relation of local entropy and information transfer suggests an origin of isoflurane anesthesia effects in local information processing"](http://arxiv.org/pdf/1608.08387.pdf), arXiv:1608.08387, 2016
   * D. G. Hurley, J. Cursons, Y. K. Wang, D. M. Budden, C. G. Print, and E. J. Crampin, ["NAIL, a software toolset for inferring, analyzing and visualizing regulatory networks"](http://dx.doi.org/10.1093/bioinformatics/btu612), Bioinformatics, in press, 2015.
