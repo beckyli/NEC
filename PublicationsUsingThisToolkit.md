@@ -9,6 +9,7 @@ Publications by other authors using JIDT to produce results include the followin
 
 Please let me know if you have published a paper using JIDT so I can add it here!
 
+  *  S. Lahiri, P. Nghe, S. J. Tans, M. L. Rosinberg, D. Lacoste ["Information-theoretic analysis of the directional influence between cellular processes"](https://doi.org/10.1371/journal.pone.0187431), PLoS ONE12(11): e0187431, 2017.
   * P.  Warchol, ["Buses of Cuernavaca - an agent-based model for universal random matrix behavior minimizing
 mutual information"](https://arxiv.org/pdf/1709.10104.pdf), arXiv:1709.10104, 2017.
   * M. C. Andrews, J. Cursons, D. G. Hurley, M. Anaka, J. S. Cebon, A. Behren and E. J. Crampin, ["Systems analysis identifies miR-29b regulation of invasiveness in melanoma"](http://dx.doi.org/10.1186/s12943-016-0554-y), Molecular Cancer, 15:72, 2016.
