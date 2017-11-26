@@ -28,7 +28,7 @@ Run the `AutoAnalyser` GUI app from the `demos/AutoAnalyser` folder via either:
 
 This will start the launcher GUI app, which looks like:
 
-![AutoAnalyser Launcher](https://raw.githubusercontent.com/jlizier/jidt/master/web/AutoAnalyserGUI-1-Launch.png)
+![AutoAnalyser Launcher](https://raw.githubusercontent.com/jlizier/jidt/master/web/AutoAnalyser-LauncherGUI.png)
 
 From there you can select which type of measure you wish to use, and click the button to launch its Auto Analyser, which looks like, for example:
 
