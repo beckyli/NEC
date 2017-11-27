@@ -1,6 +1,6 @@
 # Java Information Dynamics Toolkit (JIDT)
 
-Copyright (C) 2012-2014 [Joseph T. Lizier](http://lizier.me/joseph/); 2014-2016 [Joseph T. Lizier](http://lizier.me/joseph/) and Ipek Özdemir
+Copyright (C) 2012-2014 [Joseph T. Lizier](http://lizier.me/joseph/); 2014-2016 [Joseph T. Lizier](http://lizier.me/joseph/) and Ipek Özdemir; 2017- [Joseph T. Lizier](http://lizier.me/joseph/), Ipek Özdemir and [Pedro Mediano](https://www.doc.ic.ac.uk/~pam213/)
 
 *JIDT* provides a stand-alone, open-source code Java implementation (also usable in [Matlab, Octave](UseInOctaveMatlab), [Python](UseInPython), [R](UseInR), [Julia](UseInJulia) and [Clojure](UseInClojure)) of information-theoretic measures of distributed computation in complex systems: i.e. information storage, transfer and modification.
 
@@ -15,8 +15,8 @@ JIDT is distributed under the [GNU GPL v3 license](http://www.gnu.org/licenses/g
 # Getting started
 
  1. [Download](Downloads) and [Installation](Installation) is very easy!
-   1. _Quick start_: download the latest [v1.3.1 full distribution](http://lizier.me/joseph/software/jidt/download.php?file=infodynamics-dist-1.3.1.zip) (suitable for all platforms) and see the readme.txt file therein.
- 1. [Documentation](Documentation) including: the paper describing JIDT at [arXiv:1408.3270](http://arxiv.org/abs/1408.3270) (distributed with the toolkit), a [Tutorial](Tutorial), and [Javadocs (v1.3.1 here)](http://lizier.me/joseph/software/jidt/javadocs/v1.3.1/);
+   1. _Quick start_: download the latest [v1.4 full distribution](http://lizier.me/joseph/software/jidt/download.php?file=infodynamics-dist-1.4.zip) (suitable for all platforms) and see the readme.txt file therein.
+ 1. [Documentation](Documentation) including: the paper describing JIDT at [arXiv:1408.3270](http://arxiv.org/abs/1408.3270) (distributed with the toolkit), a [Tutorial](Tutorial), and [Javadocs (v1.4 here)](http://lizier.me/joseph/software/jidt/javadocs/v1.4/);
  1. [Demos](Demos) are included with the full distribution, including a [GUI app](AutoAnalyser) for automatic analysis and code generation (see picture below), [simple java demos](SimpleJavaExamples) and [cellular automata (CA) demos](CellularAutomataDemos).
   1. These Java tools can easily be used in [Matlab/Octave](OctaveMatlabExamples), [Python](PythonExamples), [R](R_Examples), [Julia](JuliaExamples) and [Clojure](Clojure_Examples)! (click on each language here for examples)
 
@@ -38,6 +38,13 @@ And please [let me know](mailto:joseph.lizier_AT_gmail.com) about any publicatio
 See other PublicationsUsingThisToolkit.
 
 # News
+
+_26/11/2017_ - New jar and full distribution files available for **release v1.4**; Changes for v1.4 include:
+Major expansion of functionality for AutoAnalysers: adding Launcher applet and capability to double click jar to launch, added Entropy, CMI, CTE and AIS AutoAnalysers, also added binned estimator type, added all variables/pairs analysis, added statistical significance analysis, and ensured functionality of generated Python code with Python3;
+Added GPU (cuda) capability for KSG Mutual Information calculator (proper documentation and wiki page to come), including unit tests;
+Added fast neighbour search implementations for mixed discrete-continuous KSG MI estimators;
+Expanded Gaussian estimator for multi-information (integration);
+Made all demo/data files readable by Matlab.
 
 _17/12/2016_ - New book out from J. Lizier et al., ["An Introduction to Transfer Entropy: Information Flow in Complex Systems"](http://bit.ly/te-book-2016) published by Springer, which contains various examples using JIDT (distributed in our releases)
 
