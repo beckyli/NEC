@@ -29,6 +29,7 @@ Publications by other authors mentioning this toolkit:
 
 ## JIDT packaged inside other software:
 
+  * [IDTxl](https://github.com/pwollstadt/IDTxl) by Wollstadt, Lizier, Vicente, Finn, Martinez Zarzeula, Lindner, Martinez Mediano, Novelli, Wibral -- a comprehensive toolkit for efficient inference of networks from multivariate time series data using information theory.
   * [HCTSA](http://benfulcher.github.io/hctsa/) (Highly Comparative Time-Series Analysis) by [Ben Fulcher](http://www.benfulcher.com/)
   * [NAIL](https://sourceforge.net/projects/nailsystemsbiology/) (Network Analysis and Inference Library) by Daniel G. Hurley, Joseph Cursons, Yi Kan Wang, David M. Budden, Cristin G. Print, and Edmund J. Crampin
   * [FaultMap](https://github.com/SimonStreicher/FaultMap) by Simon Streicher
