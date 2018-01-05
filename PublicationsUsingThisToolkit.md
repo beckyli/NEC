@@ -9,6 +9,7 @@ Publications by other authors using JIDT to produce results include the followin
 
 Please let me know if you have published a paper using JIDT so I can add it here!
 
+  * A. Lensen, B. Xue, M. Zhang, ["Generating Redundant Features with Unsupervised Multi-Tree Genetic Programming"](https://www.researchgate.net/publication/322244037_Generating_Redundant_Features_with_Unsupervised_Multi-Tree_Genetic_Programming). In Proceedings of the 21st European Conference on Genetic Programming, 2018, Parma, Italy, April 2018.
   * O. Berthold, ["Evolving behaviour with empirical predictive information"](https://www.researchgate.net/profile/Oswald_Berthold/publication/316789214_Evolving_behaviour_with_empirical_predictive_information/links/5911bcfdaca27200fe3644bd/Evolving-behaviour-with-empirical-predictive-information.pdf). In Proceedings of the Genetic and Evolutionary Computation Conference 2017, Berlin, Germany, July 15–19, 2017 (GECCO ’17).
   *  S. Lahiri, P. Nghe, S. J. Tans, M. L. Rosinberg, D. Lacoste ["Information-theoretic analysis of the directional influence between cellular processes"](https://doi.org/10.1371/journal.pone.0187431), PLoS ONE 12(11):e0187431, 2017.
   * J. Park, H. Mori, Y. Okuyama, M. Asada, ["Chaotic itinerancy within the coupled dynamics between a physical body and neural oscillator networks"](https://doi.org/10.1371/journal.pone.0182518). PLoS ONE 12(8):e0182518, 2017.
