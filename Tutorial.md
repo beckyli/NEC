@@ -2,9 +2,11 @@ _A brief tutorial for how to use JIDT_
 
 # Tutorial
 
-The distribution (from V1.2.1) ships with a tutorial for users in the `tutorial` folder, consisting of a [PDF](../raw/master/tutorial/JIDT-TutorialSlides.pdf) of tutorial slides, a further guide to exercises, and sample solutions.
+The distribution (from V1.2.1) ships with a short form tutorial for users in the `tutorial` folder, consisting of a [PDF](../raw/master/tutorial/JIDT-TutorialSlides.pdf) of tutorial slides, a further guide to exercises, and sample solutions.
 
-Further description of these components follows.
+A longer-form [Course](Course) on information theory for analysing complex systems with JIDT is currently in preparation.
+
+Further description of the Tutorial components follows.
 
 ## Slides
 
