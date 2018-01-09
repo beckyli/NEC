@@ -4,10 +4,10 @@ This page will host our course on "Information Theory for analysing Complex Syst
 
 For the time being, lecture slides are available in the ```course``` folder of the distribution (from v1.4.1).
 
-Lectures for each module are available via:
+Lectures for each module are available via the following:
 * Module 1 -- [Introduction to Information Theory](../tree/master/course/Module1-IntroductionToInformationTheory/Lec1-IntroductionToInformationTheory.pdf)
 * Module 2 -- [What is information?](../tree/master/course/Module2-WhatIsInformation/Lec2-WhatIsInformation.pdf)
-* Module 3 -- [JIDT](../tree/master/course/Module3-JIDT/Lec3a-IntroToJIDT.pdf)
+* Module 3 -- [Getting to know JIDT](../tree/master/course/Module3-JIDT/Lec3a-IntroToJIDT.pdf)
 * Module 4 -- [Estimators and JIDT](../tree/master/course/Module4-EstimatorsAndJIDT/Lec3b-EstimatorsAndJIDT.pdf)
 * Module 5 -- [Self-organisation and case studies](../tree/master/course/Module5-SelfOrganisationAndCaseStudies/Lec4-SelfOrganisation.pdf)
 * Module 6 -- [Statistical significance](../tree/master/course/Module6-StatisticalSignificance/Lec5-StatSignificanceAndUndersampling.pdf)
