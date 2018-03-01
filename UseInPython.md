@@ -27,7 +27,7 @@ The first step is to install JPype. On ubuntu for Python 2, one simply installs 
 
 For Python 3, you may need to install a slightly different version of JPype:
  * On ubuntu linux it has been reported that `pip3 install jpype1` (You might need to `sudo` that) will install a python 3 compatible JPype (thanks to Michael Wibral). `jpype1-py3` is another available package, however it seems that `jpype1` is more efficient.
- * On windows it has been reported that this works inside anaconda: `pip install -i https://pypi.anaconda.org/pypi/simple jpype1` (thanks to Jonathan de Vries)
+ * On windows it has been reported that this works inside anaconda: `pip install -i https://pypi.anaconda.org/pypi/simple jpype1` (thanks to Jonathan de Vries); also I have observed the following to work from command line with anaconda 3 on windows 10: `conda install -c conda-forge jpype1`
 
 You can then run your java code fairly simply in python with JPype:
  1. Import the relevant packages from jPype, e.g.: `from jpype import *`
