@@ -38,6 +38,11 @@ Publications by other authors mentioning this toolkit:
   * [NAIL](https://sourceforge.net/projects/nailsystemsbiology/) (Network Analysis and Inference Library) by Daniel G. Hurley, Joseph Cursons, Yi Kan Wang, David M. Budden, Cristin G. Print, and Edmund J. Crampin
   * [FaultMap](https://github.com/SimonStreicher/FaultMap) by Simon Streicher
 
+## JIDT used as a teaching tool in University courses:
+
+  * [CSYS5030 Self-Organisation and Criticality](https://cusp.sydney.edu.au/students/view-unit-page/alpha/CSYS5030) at The University of Sydney by Joseph Lizier (of course!)
+  * [CS523 Complex Adaptive Systems](http://cs.unm.edu/~wjust/CS523/S2018/Frame2.htm) at University of New Mexico by Melanie Moses and Wayne Just
+
 ## Publications by contributors to JIDT:
 
 Publications from the JIDT contributors using results produced by JIDT include (this is far from a complete list!):
