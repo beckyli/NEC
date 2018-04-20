@@ -9,6 +9,7 @@ Publications by other authors using JIDT to produce results include the followin
 
 Please let me know if you have published a paper using JIDT so I can add it here!
 
+  * A. Lensen, B. Xue, M. Zhang, ["Automatically Evolving Difficult Benchmark Feature Selection Datasets with Genetic Programming"](https://doi.org/10.1145/3205455.3205552), Proceedings of the Genetic and Evolutionary Computation Conference (GECCO 2018), Kyoto, Japan, 2018.
   * H. Ashikaga, A. Asgari-Targhi, ["Locating Order-Disorder Phase Transition in a Cardiac System"](http://doi.org/10.1038/s41598-018-20109-6), Scientific Reports, 8:1967, 2018
   * O. M. Cliff, M. Prokopenko, R. Fitch, ["Minimising the Kullback–Leibler Divergence for Model Selection in Distributed Nonlinear Systems"](http://dx.doi.org/10.3390/e20020051), Entropy, 20(2), 51, 2018.
   * A. Lensen, B. Xue, M. Zhang, ["Generating Redundant Features with Unsupervised Multi-Tree Genetic Programming"](https://www.researchgate.net/publication/322244037_Generating_Redundant_Features_with_Unsupervised_Multi-Tree_Genetic_Programming). In Proceedings of the 21st European Conference on Genetic Programming, 2018, Parma, Italy, April 2018.
