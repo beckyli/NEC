@@ -4,7 +4,7 @@ _Examples of using the toolkit in Python_
 
 ## Python code examples
 
-This page describes a basic set of demonstration scripts for using the toolkit in Python. The .py files can be found at [demos/python](../blob/master/demos/python) in the svn or main distributions. We plan to have other more complicated examples available from the main [Demos](Demos) page in future.
+This page describes a basic set of demonstration scripts for using the toolkit in Python. The .py files can be found at [demos/python](../blob/master/demos/python) in the git or main distributions, and are intended to be run from that location. We plan to have other more complicated examples available from the main [Demos](Demos) page in future.
 
 Please see [UseInPython](UseInPython) for instructions on how to begin using the java toolkit from inside python.
 
