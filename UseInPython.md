@@ -7,7 +7,7 @@ First we describe calling java code from Python, then specifically describe the 
 
 In summary, you will need to install the following dependencies:
 * A [Java SE / JDK](http://www.oracle.com/technetwork/java/javase/overview/index.html)
-* Python jpype package (see below)
+* Python jpype package, in particular jpype1 if using python3 (see below)
 * Python numpy package (see below)
 
 Several longer examples of using the toolkit in Python can be viewed at [PythonExamples](PythonExamples).
